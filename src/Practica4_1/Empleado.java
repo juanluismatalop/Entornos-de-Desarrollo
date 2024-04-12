@@ -5,6 +5,8 @@ package Practica4_1;
  * @version 1.0
  * @since 1.0
  */
+//hola buenas que tal estamos 
+//todo un gusto
 public class Empleado {
 	private int emp_no;
 	private String nombre;
@@ -117,7 +119,7 @@ public class Empleado {
 	public Double getSalario() {
 		return salario;
 	}
-
+//>:D
 	public void setSalario(Double salario) {
 		this.salario = salario;
 	}
