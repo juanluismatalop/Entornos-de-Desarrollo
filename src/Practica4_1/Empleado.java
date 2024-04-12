@@ -6,7 +6,7 @@ package Practica4_1;
  * @since 1.0
  */
 //hola buenas que tal estamos 
-//todo un gusto
+
 public class Empleado {
 	private int emp_no;
 	private String nombre;
