@@ -3,6 +3,7 @@ package Practica4_1;
 /**
  * @author Juan Luis Mata López
  * @version 1.0
+ * @since 1.0
  */
 public class Empleado {
 	private int emp_no;
@@ -10,6 +11,9 @@ public class Empleado {
 	private String apellido;
 	private String pobla;
 	private String oficio;
+	/**
+	 * @serial campo para mostrar el salario del empleado
+	 */
 	private Double salario;
 	private String dept;
 
@@ -142,6 +146,7 @@ public class Empleado {
 	/**
 	 * @see
 	 * @param salario
+	 * @deprecated essta clase sera eliminada a futuro
 	 */
 	public void ejempplo(double salario){
 		System.out.println(Ejemplo_Documenta.Iva(salario));
