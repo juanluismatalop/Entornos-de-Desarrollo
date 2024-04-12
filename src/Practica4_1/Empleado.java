@@ -53,14 +53,43 @@ public class Empleado {
 		return emp_no;
 	}
 
+	/**
+	 *
+	 * @param emp_no
+	 */
 	public void setEmp_no(int emp_no) {
 		this.emp_no = emp_no;
+	}
+
+	/**
+	 *
+	 * @param numero
+	 * @throws IllegalArgumentException
+	 */
+	public static void verificarNumero(int numero) throws IllegalArgumentException {
+		if (numero < 0) {
+			throw new IllegalArgumentException("El número no puede ser negativo");
+		}
+		System.out.println("El número es: " + numero);
+	}
+
+	/**
+	 *
+	 * @param salario
+	 * @return salario por 1.07 que es el cambio de euro a dolares
+	 */
+	public  static double convertirADolar(double salario){
+		return salario*1.07;
 	}
 
 	public String getNombre() {
 		return nombre;
 	}
 
+	/**
+	 *
+	 * @param nombre
+	 */
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
@@ -101,7 +130,7 @@ public class Empleado {
 	public void subidasalario(Double subida) {
 		salario = salario + subida;
 	}
-	
+
 	private boolean comprobar(){
 		if (nombre.equals("")){
 			
@@ -109,4 +138,13 @@ public class Empleado {
 		}
 		return true;
 	}
+
+	/**
+	 * @see
+	 * @param salario
+	 */
+	public void ejempplo(double salario){
+		System.out.println(Ejemplo_Documenta.Iva(salario));
+	}
+
 }
