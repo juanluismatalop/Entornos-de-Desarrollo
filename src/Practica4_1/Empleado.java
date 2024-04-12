@@ -5,7 +5,7 @@ package Practica4_1;
  * @version 1.0
  * @since 1.0
  */
-//hola buenas que tal estamos 
+//hola encarnacion
 
 public class Empleado {
 	private int emp_no;
