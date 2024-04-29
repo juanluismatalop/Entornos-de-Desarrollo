@@ -5,7 +5,7 @@ package Practica4_1;
  * @version 1.0
  * @since 1.0
  */
-//hola encarnacion
+
 
 public class Empleado {
 	private int emp_no;
@@ -18,9 +18,8 @@ public class Empleado {
 	 */
 	private Double salario;
 	private String dept;
-
+/*pene*/
 	/**
-	 *
 	 * @param emp_no
 	 * @param nombre
 	 * @param apellido
@@ -41,7 +40,6 @@ public class Empleado {
 	}
 
 	/**
-	 *
 	 * @param emp_no
 	 * @param nombre
 	 * @param salario
@@ -60,7 +58,6 @@ public class Empleado {
 	}
 
 	/**
-	 *
 	 * @param emp_no
 	 */
 	public void setEmp_no(int emp_no) {
@@ -68,7 +65,6 @@ public class Empleado {
 	}
 
 	/**
-	 *
 	 * @param numero
 	 * @throws IllegalArgumentException
 	 */
@@ -80,7 +76,6 @@ public class Empleado {
 	}
 
 	/**
-	 *
 	 * @param salario
 	 * @return salario por 1.07 que es el cambio de euro a dolares
 	 */
@@ -93,7 +88,6 @@ public class Empleado {
 	}
 
 	/**
-	 *
 	 * @param nombre
 	 */
 	public void setNombre(String nombre) {
